@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credentials and experiment tracking
+.env
+.env.*
+wandb/
+
+# Datasets: retain metadata only
+data/*
+!data/Info/
+!data/Info/*.json
+synthetic/
+impute/
+
+# Model artifacts and generated results
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.csv
+asgdiff/ckpt/
+asgdiff/result/
+eval/report_runs/
+outputs/
+results/
+logs/
+debug/
+tmp/
+.tmp/
+
+# Paper and build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+*.doc
+*.docx

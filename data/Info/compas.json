@@ -1,0 +1,14 @@
+{
+    "name": "compas",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": null,
+    "num_col_idx": [0, 6, 7, 8, 9],
+    "cat_col_idx": [1, 2, 3, 4, 5],
+    "target_col_idx": [10],
+    "file_type": "csv",
+    "raw_data_path": "data/compas/compas-scores-two-years.csv",
+    "data_path": "data/compas/compas.csv",
+    "val_path": null,
+    "test_path": null
+}

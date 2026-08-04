@@ -1,0 +1,14 @@
+{
+    "name": "lsac",
+    "task_type": "binclass",
+    "header": "infer",
+    "column_names": null,
+    "num_col_idx": [0, 1, 2, 3, 4, 5, 6, 7, 9],
+    "cat_col_idx": [8, 10],
+    "target_col_idx": [11],
+    "file_type": "csv",
+    "raw_data_path": "data/lsac/law_school_clean.csv",
+    "data_path": "data/lsac/lsac.csv",
+    "val_path": null,
+    "test_path": null
+}
